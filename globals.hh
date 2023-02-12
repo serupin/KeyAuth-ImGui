@@ -9,10 +9,10 @@ static std::tm timet_to_tm(time_t timestamp);
 
 using namespace KeyAuth;
 
-std::string name = (std::string)skCrypt("Test"); // application name. right above the blurred text aka the secret on the licenses tab among other tabs
-std::string ownerid = (std::string)skCrypt("L9O4s8jMJt"); // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
-std::string secret = (std::string)skCrypt("00c0099633243959d0b989f69dc5c59476bb60ef562b03bbd718c45b51f433a0"); // app secret, the blurred text on licenses tab and other tabs
-std::string version = (std::string)skCrypt("1.0"); // leave alone unless you've changed version on website
+std::string name = (std::string)skCrypt(""); // application name. right above the blurred text aka the secret on the licenses tab among other tabs
+std::string ownerid = (std::string)skCrypt(""); // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
+std::string secret = (std::string)skCrypt(""); // app secret, the blurred text on licenses tab and other tabs
+std::string version = (std::string)skCrypt(""); // leave alone unless you've changed version on website
 std::string url = (std::string)skCrypt("https://keyauth.win/api/1.2/"); // change if you're self-hosting
 
 api KeyAuthApp(name, ownerid, secret, version, url);
