@@ -3,6 +3,9 @@
 **Description:**
 ImGui [KeyAuth](https://keyauth.cc/) loader with basic protections and auth system.
 
+# CHANGE!:
+**Go to "globals.hh" and change your keyauth details.**
+
 # Features:
 **ImGui, Multi-Threading**
 
