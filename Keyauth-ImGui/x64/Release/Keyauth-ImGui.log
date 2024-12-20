@@ -1,0 +1,62 @@
+﻿  main.cpp
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\includes.hpp(13,9): warning C4005: 'CURL_STATICLIB': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\includes.hpp(13,9):
+      'CURL_STATICLIB' previously declared on the command line
+  
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(55,14): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(95,14): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(139,201): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(139,192): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(139,170): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(139,117): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(140,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(140,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(223,97): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(223,88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(223,68): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(223,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+libsodium.lib(core.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(core.obj)' or at ''; linking object as if no debug info
+libsodium.lib(open.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(open.obj)' or at ''; linking object as if no debug info
+libsodium.lib(codecs.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(codecs.obj)' or at ''; linking object as if no debug info
+libsodium.lib(randombytes.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(randombytes.obj)' or at ''; linking object as if no debug info
+libsodium.lib(runtime.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(runtime.obj)' or at ''; linking object as if no debug info
+libsodium.lib(utils.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(utils.obj)' or at ''; linking object as if no debug info
+libsodium.lib(generichash_blake2b.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(generichash_blake2b.obj)' or at ''; linking object as if no debug info
+libsodium.lib(onetimeauth_poly1305.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(onetimeauth_poly1305.obj)' or at ''; linking object as if no debug info
+libsodium.lib(argon2-core.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(argon2-core.obj)' or at ''; linking object as if no debug info
+libsodium.lib(scalarmult_curve25519.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(scalarmult_curve25519.obj)' or at ''; linking object as if no debug info
+libsodium.lib(stream_chacha20.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(stream_chacha20.obj)' or at ''; linking object as if no debug info
+libsodium.lib(stream_salsa20.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(stream_salsa20.obj)' or at ''; linking object as if no debug info
+libsodium.lib(aead_aegis128l.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(aead_aegis128l.obj)' or at ''; linking object as if no debug info
+libsodium.lib(aead_aegis256.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(aead_aegis256.obj)' or at ''; linking object as if no debug info
+libsodium.lib(hash_sha512_cp.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(hash_sha512_cp.obj)' or at ''; linking object as if no debug info
+libsodium.lib(verify.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(verify.obj)' or at ''; linking object as if no debug info
+libsodium.lib(sign.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(sign.obj)' or at ''; linking object as if no debug info
+libsodium.lib(ed25519_ref10.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(ed25519_ref10.obj)' or at ''; linking object as if no debug info
+libsodium.lib(randombytes_sysrandom.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(randombytes_sysrandom.obj)' or at ''; linking object as if no debug info
+libsodium.lib(blake2b-ref.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(blake2b-ref.obj)' or at ''; linking object as if no debug info
+libsodium.lib(poly1305_donna.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(poly1305_donna.obj)' or at ''; linking object as if no debug info
+libsodium.lib(argon2-fill-block-ref.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(argon2-fill-block-ref.obj)' or at ''; linking object as if no debug info
+libsodium.lib(argon2-fill-block-avx512f.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(argon2-fill-block-avx512f.obj)' or at ''; linking object as if no debug info
+libsodium.lib(argon2-fill-block-avx2.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(argon2-fill-block-avx2.obj)' or at ''; linking object as if no debug info
+libsodium.lib(argon2-fill-block-ssse3.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(argon2-fill-block-ssse3.obj)' or at ''; linking object as if no debug info
+libsodium.lib(blake2b-long.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(blake2b-long.obj)' or at ''; linking object as if no debug info
+libsodium.lib(x25519_ref10.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(x25519_ref10.obj)' or at ''; linking object as if no debug info
+libsodium.lib(chacha20_ref.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(chacha20_ref.obj)' or at ''; linking object as if no debug info
+libsodium.lib(chacha20_dolbeau-avx2.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(chacha20_dolbeau-avx2.obj)' or at ''; linking object as if no debug info
+libsodium.lib(chacha20_dolbeau-ssse3.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(chacha20_dolbeau-ssse3.obj)' or at ''; linking object as if no debug info
+libsodium.lib(salsa20_ref.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(salsa20_ref.obj)' or at ''; linking object as if no debug info
+libsodium.lib(salsa20_xmm6int-sse2.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(salsa20_xmm6int-sse2.obj)' or at ''; linking object as if no debug info
+libsodium.lib(salsa20_xmm6int-avx2.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(salsa20_xmm6int-avx2.obj)' or at ''; linking object as if no debug info
+libsodium.lib(aegis128l_soft.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(aegis128l_soft.obj)' or at ''; linking object as if no debug info
+libsodium.lib(aegis128l_aesni.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(aegis128l_aesni.obj)' or at ''; linking object as if no debug info
+libsodium.lib(aegis256_soft.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(aegis256_soft.obj)' or at ''; linking object as if no debug info
+libsodium.lib(aegis256_aesni.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(aegis256_aesni.obj)' or at ''; linking object as if no debug info
+libsodium.lib(blake2b-compress-ref.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(blake2b-compress-ref.obj)' or at ''; linking object as if no debug info
+libsodium.lib(blake2b-compress-ssse3.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(blake2b-compress-ssse3.obj)' or at ''; linking object as if no debug info
+libsodium.lib(blake2b-compress-sse41.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(blake2b-compress-sse41.obj)' or at ''; linking object as if no debug info
+libsodium.lib(blake2b-compress-avx2.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(blake2b-compress-avx2.obj)' or at ''; linking object as if no debug info
+libsodium.lib(core_salsa_ref.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(core_salsa_ref.obj)' or at ''; linking object as if no debug info
+libsodium.lib(softaes.obj) : warning LNK4099: PDB '' was not found with 'libsodium.lib(softaes.obj)' or at ''; linking object as if no debug info
+  Keyauth-ImGui.vcxproj -> C:\Users\admin\Desktop\Keyauth-ImGui\x64\Release\Keyauth-ImGui.exe

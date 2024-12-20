@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{b77a41a0-085f-42f2-924a-dce9df5e71f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{65b4a09a-67b9-4a88-abfc-580badb9d5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\curl">
+      <UniqueIdentifier>{8dd72585-8b37-469c-b0f2-5c945381af9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\nlohmann">
+      <UniqueIdentifier>{83da850f-c4ee-472e-976e-b1593265b0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\libsodium">
+      <UniqueIdentifier>{ea633c6d-4c87-4f43-b3d4-bd05cf54f46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\libsodium\sodium">
+      <UniqueIdentifier>{b3689c36-8df0-4ef8-bd11-2fa47eb90408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\nlohmann\detail">
+      <UniqueIdentifier>{4c1c6cbd-5dbb-412b-bd13-647b68af40c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\nlohmann\detail\conversions">
+      <UniqueIdentifier>{29615a9f-97d5-448c-abef-adc8ad5cddd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\nlohmann\detail\input">
+      <UniqueIdentifier>{f8feee33-3765-439f-a112-09dfebd4a9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\nlohmann\detail\iterators">
+      <UniqueIdentifier>{c99ef405-9bf8-4ddf-bf12-5d46e1b575f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\nlohmann\detail\meta">
+      <UniqueIdentifier>{176333ae-f96a-4900-91f3-379756a2ff85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\nlohmann\detail\output">
+      <UniqueIdentifier>{f671168d-5e76-4f15-8aff-b54dd3b1535e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\nlohmann\thirdparty">
+      <UniqueIdentifier>{f9bfb554-35bd-48d1-a25b-cb8bdff59dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth\nlohmann\thirdparty\hedley">
+      <UniqueIdentifier>{087423d9-f0c1-4b05-86d0-991ea3a7f1b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\auth.cpp">
+      <Filter>auth</Filter>
+    </ClCompile>
+    <ClCompile Include="auth\utils.cpp">
+      <Filter>auth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\includes.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\killEmulator.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\lazy_importer.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\Security.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\utils.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\xorstr.hpp">
+      <Filter>auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\curl.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\curlver.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\easy.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\header.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\mprintf.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\multi.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\options.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\stdcheaders.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\system.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\typecheck-gcc.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\urlapi.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\curl\websockets.h">
+      <Filter>auth\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium.h">
+      <Filter>auth\libsodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\core.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_aead_aegis128l.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_aead_aegis256.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_aead_aes256gcm.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_aead_chacha20poly1305.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_aead_xchacha20poly1305.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_auth.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_auth_hmacsha256.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_auth_hmacsha512.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_auth_hmacsha512256.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_box.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_box_curve25519xchacha20poly1305.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_box_curve25519xsalsa20poly1305.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_core_ed25519.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_core_hchacha20.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_core_hsalsa20.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_core_ristretto255.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_core_salsa20.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_core_salsa208.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_core_salsa2012.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_generichash.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_generichash_blake2b.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_hash.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_hash_sha256.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_hash_sha512.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_kdf.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_kdf_blake2b.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_kdf_hkdf_sha256.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_kdf_hkdf_sha512.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_kx.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_onetimeauth.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_onetimeauth_poly1305.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_pwhash.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_pwhash_argon2i.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_pwhash_argon2id.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_pwhash_scryptsalsa208sha256.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_scalarmult.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_scalarmult_curve25519.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_scalarmult_ed25519.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_scalarmult_ristretto255.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_secretbox.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_secretbox_xchacha20poly1305.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_secretbox_xsalsa20poly1305.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_secretstream_xchacha20poly1305.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_shorthash.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_shorthash_siphash24.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_sign.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_sign_ed25519.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_sign_edwards25519sha512batch.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_stream.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_stream_chacha20.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_stream_salsa20.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_stream_salsa208.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_stream_salsa2012.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_stream_xchacha20.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_stream_xsalsa20.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_verify_16.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_verify_32.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\crypto_verify_64.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\export.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\randombytes.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\randombytes_internal_random.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\randombytes_sysrandom.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\runtime.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\utils.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\libsodium\sodium\version.h">
+      <Filter>auth\libsodium\sodium</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\adl_serializer.hpp">
+      <Filter>auth\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\byte_container_with_subtype.hpp">
+      <Filter>auth\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\json.hpp">
+      <Filter>auth\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\json_fwd.hpp">
+      <Filter>auth\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\ordered_map.hpp">
+      <Filter>auth\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\exceptions.hpp">
+      <Filter>auth\nlohmann\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\hash.hpp">
+      <Filter>auth\nlohmann\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\json_pointer.hpp">
+      <Filter>auth\nlohmann\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\json_ref.hpp">
+      <Filter>auth\nlohmann\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\macro_scope.hpp">
+      <Filter>auth\nlohmann\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\macro_unscope.hpp">
+      <Filter>auth\nlohmann\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\value_t.hpp">
+      <Filter>auth\nlohmann\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\conversions\from_json.hpp">
+      <Filter>auth\nlohmann\detail\conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\conversions\to_chars.hpp">
+      <Filter>auth\nlohmann\detail\conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\conversions\to_json.hpp">
+      <Filter>auth\nlohmann\detail\conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\input\binary_reader.hpp">
+      <Filter>auth\nlohmann\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\input\input_adapters.hpp">
+      <Filter>auth\nlohmann\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\input\json_sax.hpp">
+      <Filter>auth\nlohmann\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\input\lexer.hpp">
+      <Filter>auth\nlohmann\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\input\parser.hpp">
+      <Filter>auth\nlohmann\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\input\position_t.hpp">
+      <Filter>auth\nlohmann\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\iterators\internal_iterator.hpp">
+      <Filter>auth\nlohmann\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\iterators\iter_impl.hpp">
+      <Filter>auth\nlohmann\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\iterators\iteration_proxy.hpp">
+      <Filter>auth\nlohmann\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\iterators\iterator_traits.hpp">
+      <Filter>auth\nlohmann\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\iterators\json_reverse_iterator.hpp">
+      <Filter>auth\nlohmann\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\iterators\primitive_iterator.hpp">
+      <Filter>auth\nlohmann\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\meta\cpp_future.hpp">
+      <Filter>auth\nlohmann\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\meta\detected.hpp">
+      <Filter>auth\nlohmann\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\meta\is_sax.hpp">
+      <Filter>auth\nlohmann\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\meta\type_traits.hpp">
+      <Filter>auth\nlohmann\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\meta\void_t.hpp">
+      <Filter>auth\nlohmann\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\output\binary_writer.hpp">
+      <Filter>auth\nlohmann\detail\output</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\output\output_adapters.hpp">
+      <Filter>auth\nlohmann\detail\output</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\detail\output\serializer.hpp">
+      <Filter>auth\nlohmann\detail\output</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\thirdparty\hedley\hedley.hpp">
+      <Filter>auth\nlohmann\thirdparty\hedley</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\nlohmann\thirdparty\hedley\hedley_undef.hpp">
+      <Filter>auth\nlohmann\thirdparty\hedley</Filter>
+    </ClInclude>
+    <ClInclude Include="skstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="auth\curl\libcurl.lib">
+      <Filter>auth\curl</Filter>
+    </Library>
+    <Library Include="auth\curl\zlib.lib">
+      <Filter>auth\curl</Filter>
+    </Library>
+    <Library Include="auth\libsodium\libsodium.lib">
+      <Filter>auth\libsodium</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="auth\curl\Makefile.am">
+      <Filter>auth\curl</Filter>
+    </None>
+    <None Include="auth\curl\Makefile.in">
+      <Filter>auth\curl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,95 @@
+﻿  auth.cpp
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(130,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(151,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(253,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\lazy_importer.hpp(561,26): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file 'auth/auth.cpp')
+      C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\lazy_importer.hpp(561,26):
+      the template instantiation context (the oldest one first) is
+          C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(287,21):
+          see reference to function template instantiation 'decltype(auto) li::detail::lazy_function<9898537735169290333,LSTATUS (__cdecl *)(HKEY,LPCSTR,DWORD,DWORD,const BYTE *,DWORD)>::operator ()<HKEY&,const _Elem*,int,unsigned long,const BYTE*,unsigned __int64>(HKEY &,const _Elem *&&,int &&,unsigned long &&,const BYTE *&&,unsigned __int64 &&) const' being compiled
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(353,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(607,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(850,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(918,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(980,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1060,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1100,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1141,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1183,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1222,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1316,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1358,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1405,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1536,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1551,30): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1552,37): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1553,29): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1757,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4709,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'auth/auth.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4709,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(545,41):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(545,28):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'KeyAuth::api::web_login'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(793,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(949,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  utils.cpp
+  imgui.cpp
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\ImGui\imgui.cpp(7762,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\ImGui\imgui.cpp(7762,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\ImGui\imgui.cpp(7762,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\ImGui\imgui.cpp(7762,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(29,216): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(29,207): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(29,185): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(29,132): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(30,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\main.cpp(30,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1086,1): warning C4715: 'KeyAuth::api::getvar': not all control paths return a value
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1164,1): warning C4715: 'KeyAuth::api::checkblack': not all control paths return a value
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1248,1): warning C4715: 'KeyAuth::api::var': not all control paths return a value
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1343,1): warning C4715: 'KeyAuth::api::webhook': not all control paths return a value
+C:\Users\admin\Desktop\Keyauth-ImGui\Keyauth-ImGui\auth\auth.cpp(1391,1): warning C4715: 'KeyAuth::api::fetchonline': not all control paths return a value
+auth.obj : error LNK2019: unresolved external symbol __imp_sodium_init referenced in function "int __cdecl VerifyPayload(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?VerifyPayload@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+auth.obj : error LNK2019: unresolved external symbol __imp_crypto_sign_ed25519_verify_detached referenced in function "int __cdecl VerifyPayload(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?VerifyPayload@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+auth.obj : error LNK2019: unresolved external symbol __imp_sodium_hex2bin referenced in function "int __cdecl VerifyPayload(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?VerifyPayload@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+C:\Users\admin\Desktop\Keyauth-ImGui\x64\Debug\Keyauth-ImGui.exe : fatal error LNK1120: 3 unresolved externals
